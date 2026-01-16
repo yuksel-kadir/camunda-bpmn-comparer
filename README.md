@@ -6,6 +6,8 @@
 
 A professional, high-performance desktop application for comparing Camunda 7 BPMN process models. Built for process architects and developers who need precision in tracking workflow changes.
 
+> :warning: **Warning:** This project is written completely by Gemini 3 Flash, Gemini 3 Pro and Claude Opus 4.5 models.
+
 ## Key Features
 - **Visual Side-by-Side Comparison**: Easily spot structural changes between two BPMN files.
 - **Ultra-Smooth Synchronization**: Mirror-smooth panning and zooming across both views (60fps).
