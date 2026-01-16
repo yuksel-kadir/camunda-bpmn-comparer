@@ -141,7 +141,7 @@ header {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     gap: var(--spacing-lg);
     align-items: center;
 }
@@ -285,6 +285,56 @@ footer {
     animation: fadeIn 0.6s ease-out forwards;
 }
 
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    top: 47%;
+    transform: translateY(-50%);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1001;
+}
+
+.close:hover {
+    color: var(--accent-primary);
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    border: 2px solid var(--border-color);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-grid {
@@ -302,5 +352,17 @@ footer {
 
     .nav-links {
         display: none;
+    }
+
+    .modal-content {
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+    .close {
+        font-size: 30px;
+        top: 5px;
+        right: 5px;
+        padding: 3px 8px;
     }
 }

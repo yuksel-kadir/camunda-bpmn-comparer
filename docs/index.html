@@ -43,8 +43,10 @@
                     </div>
                 </div>
                 <div class="hero-image animate-in" style="animation-delay: 0.2s;">
-                    <img src="assets/hero_bg.png" alt="App Screenshot"
-                        style="width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border: 1px solid var(--border-color);">
+                    <a href="#" onclick="openModal()">
+                        <img src="assets/hero_bg_2.png" alt="App Screenshot"
+                            style="width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border: 1px solid var(--border-color);">
+                    </a>
                 </div>
             </div>
         </section>
@@ -159,6 +161,31 @@
             <p>&copy; 2026 Camunda BPMN Comparer. Optimized for Camunda 7 BPMN extensions.</p>
         </div>
     </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img src="assets/hero_bg_2.png" alt="App Screenshot" class="modal-image">
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('imageModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('imageModal')) {
+                closeModal();
+            }
+        }
+    </script>
 
 </body>
 
