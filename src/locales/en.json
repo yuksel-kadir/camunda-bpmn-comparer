@@ -1,0 +1,92 @@
+{
+    "common": {
+        "compare": "Compare",
+        "comparing": "Comparing...",
+        "comparisonTitle": "Start the comparison between the two selected BPMN files",
+        "original": "Original",
+        "modified": "Modified",
+        "resetView": "Reset View",
+        "clearResults": "Clear Results",
+        "swap": "Swap Original and Modified files",
+        "loadOriginal": "Load Original",
+        "loadModified": "Load Modified",
+        "history": "View recent comparisons history",
+        "help": "Toggle navigation help guide",
+        "helpDisabled": "Comparison results needed to view help",
+        "themeLight": "Switch to light mode for better visibility",
+        "themeDark": "Switch to dark mode for better visibility",
+        "readyToCompare": "Ready to Compare",
+        "readyToCompareDesc": "Load your Original and Modified BPMN files above.",
+        "about": "About this application",
+        "version": "v{{version}}",
+        "appName": "Camunda BPMN Comparer"
+    },
+    "uploader": {
+        "uploadAFile": "Upload a file",
+        "orDragAndDrop": "or drag and drop",
+        "bpmnOnly": "BPMN files only"
+    },
+    "history": {
+        "title": "Recent Comparisons",
+        "empty": "No recent comparisons.",
+        "clear": "Clear",
+        "clearTitle": "Clear all history",
+        "missingFiles": "One or more files are missing",
+        "fileNotFound": "File not found"
+    },
+    "diff": {
+        "title": "Detailed Element Changes",
+        "subtitle": "Hover over an item to highlight it in the diagrams below. Click to zoom and select.",
+        "search": "Search elements...",
+        "allTypes": "All Element Types",
+        "allTypesDesc": "(show all changes)",
+        "noChanges": "No Functional Changes Detected",
+        "noChangesDesc": "The two flow diagrams are identical in terms of their core elements.",
+        "added": "Added",
+        "removed": "Removed",
+        "modified": "Modified",
+        "addedTitle": "Elements that exist only in the Modified flow",
+        "removedTitle": "Elements that exist only in the Original flow",
+        "modifiedTitle": "Elements that exist in both flows but have property changes",
+        "addedEmpty": "No added elements were found.",
+        "removedEmpty": "No removed elements were found.",
+        "modifiedEmpty": "No modified elements were found.",
+        "clickToZoom": "Click to highlight and zoom to {{action}} element: {{name}}"
+    },
+    "help": {
+        "title": "Navigation Guide",
+        "drag": "Drag",
+        "dragDesc": "Hold left click to pan",
+        "zoom": "Zoom",
+        "zoomDesc": "Hold Ctrl + Mouse Wheel"
+    },
+    "legend": {
+        "title": "Flow Highlights",
+        "added": "Added",
+        "addedDesc": "Visible in modified flow",
+        "removed": "Removed",
+        "removedDesc": "Deleted from original flow",
+        "modified": "Modified",
+        "modifiedDesc": "Properties have changed",
+        "hover": "Hover",
+        "hoverDesc": "Dashed line (Matches change color)",
+        "selection": "Selection",
+        "selectionDesc": "Solid glowing (Matches change color)"
+    },
+    "about": {
+        "title": "About Camunda BPMN Comparer",
+        "tagline": "Professional BPMN Comparison Tool",
+        "builtWith": "Built With",
+        "footer": "Created for Camunda process engineers to easily identify changes between different versions of BPMN diagrams."
+    },
+    "errors": {
+        "missingFiles": "Please upload both BPMN files to compare.",
+        "comparisonFailed": "Failed to parse or compare BPMN files. Please ensure they are valid Camunda 7 XML files. Error: {{error}}",
+        "reExecuteMissing": "Missing files: {{files}}",
+        "reExecuteFailed": "Cannot re-execute: {{error}}"
+    },
+    "bpmn": {
+        "originalFlow": "Original Flow",
+        "modifiedFlow": "Modified Flow"
+    }
+}
