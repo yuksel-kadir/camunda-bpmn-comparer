@@ -15,10 +15,10 @@ A professional, high-performance desktop application for comparing Camunda 7 BPM
 
 ## Technical Documentation
 For deeper insights into the application, refer to the following:
-- [Specification](docs/specification.md)
-- [Features List](docs/features.md)
-- [Architecture Overview](docs/architecture.md)
-- [Design Rules](docs/design-rules.md)
+- [Specification](project-docs/specification.md)
+- [Features List](project-docs/features.md)
+- [Architecture Overview](project-docs/architecture.md)
+- [Design Rules](project-docs/design-rules.md)
 
 ## Getting Started
 
